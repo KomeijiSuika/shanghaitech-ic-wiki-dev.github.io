@@ -97,7 +97,10 @@ nav:
               - learning/computer-architecture/index.md
               - learning/computer-architecture/general-purpose-systems.md
               - learning/computer-architecture/heterogeneous-systems.md
-          - learning/algorithms-and-programming/index.md
+          - 算法与编程:
+              - learning/algorithms-and-programming/index.md
+              - learning/algorithms-and-programming/languages-and-software-engineering.md
+              - learning/algorithms-and-programming/algorithms-and-computation-theory.md
           - learning/eda/index.md
   - 上科大 IC:
       - shanghaitech/index.md

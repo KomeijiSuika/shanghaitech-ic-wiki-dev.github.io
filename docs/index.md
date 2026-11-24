@@ -33,7 +33,7 @@ hide:
 
 -   :material-map-outline: **[学习地图](learning/index.md)**
 
-    从基础知识出发，按工艺与器件、电路、系统架构、算法编程和 EDA 查找学习路线。
+    从基础知识出发，按工艺与器件、电路、系统架构、算法与编程和 EDA 查找学习路线。
 
 -   :material-school-outline: **[上科大 IC](shanghaitech/index.md)**
 
