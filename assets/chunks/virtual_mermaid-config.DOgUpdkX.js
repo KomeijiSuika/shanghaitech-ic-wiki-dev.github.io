@@ -1,0 +1,1 @@
+const e={securityLevel:"loose",startOnLoad:!1,theme:"base",flowchart:{useMaxWidth:!1},mindmap:{useMaxWidth:!1},themeVariables:{fontFamily:'Inter, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif',primaryColor:"#e6f4f6",primaryBorderColor:"#007f95",primaryTextColor:"#102830",lineColor:"#4d7d88"}};export{e as default};
