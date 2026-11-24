@@ -20,7 +20,7 @@ hide:
 </div>
 <figure class="wiki-die" markdown>
 <img src="assets/mos-6502.webp" alt="MOS 6502 微处理器裸片显微照片，可见金属互连和排列紧密的电路" width="880" height="560">
-<figcaption markdown>[MOS 6502 裸片局部 · Pauli Rautakorpi](https://commons.wikimedia.org/wiki/File:MOS_6502_die.jpg) · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)</figcaption>
+<figcaption>MOS 6502 裸片局部 · Pauli Rautakorpi · CC BY 3.0</figcaption>
 </figure>
 </div>
 
@@ -66,4 +66,4 @@ hide:
 
 本站由上海科技大学 IC 荣誉项目学生独立发起，内容由贡献者共同维护。文章代表各自作者的观点，校内课程、政策与招生信息以学校及院系的正式发布为准。
 
-网站代码、配置与脚本采用 [MIT 许可]({{ repo_url }}/blob/main/LICENSE)，原创文章按 [CC BY 4.0]({{ repo_url }}/blob/main/LICENSE-CONTENT) 共享。第三方作品保留各自许可。首页裸片照片经裁切、缩放与转码。[项目 GitHub 仓库]({{ repo_url }})
+网站代码、配置与脚本采用 [MIT 许可]({{ repo_url }}/blob/main/LICENSE)，原创文章按 [CC BY 4.0]({{ repo_url }}/blob/main/LICENSE-CONTENT) 共享。第三方作品保留各自许可。首页[裸片照片](https://commons.wikimedia.org/wiki/File:MOS_6502_die.jpg)采用 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)，经裁切、缩放与转码。[项目 GitHub 仓库]({{ repo_url }})

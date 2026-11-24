@@ -84,7 +84,6 @@
 }
 .md-typeset .wiki-die > p { height: 100%; margin: 0; }
 .wiki-die img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.wiki-die figcaption p { margin: 0; }
 .md-typeset .wiki-die figcaption {
   position: absolute;
   z-index: 1;
@@ -96,7 +95,6 @@
   font-style: normal;
   color: #fff;
 }
-.wiki-die figcaption a { color: inherit; text-decoration: underline; }
 .md-typeset .wiki-sections { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .md-typeset .wiki-sections > ul > li {
   position: relative;
