@@ -91,8 +91,8 @@ nav:
           - learning/devices-and-process/index.md
           - 电路:
               - learning/circuits/index.md
-              - learning/digital-ic/index.md
               - learning/analog-ic/index.md
+              - learning/digital-ic/index.md
           - learning/computer-architecture/index.md
           - learning/algorithms-and-programming/index.md
           - learning/eda/index.md
