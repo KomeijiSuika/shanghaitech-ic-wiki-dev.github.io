@@ -278,9 +278,9 @@ const friends = [
 }
 .eyebrow {
   margin: 0 0 14px;
-  font-size: 13px;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.25;
+  letter-spacing: 0.015em;
   color: #8fe3ec;
   font-weight: 600;
 }
