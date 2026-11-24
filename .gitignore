@@ -1,11 +1,10 @@
-# Python 环境、MkDocs 构建与开发工具缓存
-.venv/
-venv/
-site/
-__pycache__/
-*.py[cod]
+# Node 依赖与 VitePress 构建缓存
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# 开发工具缓存
 .cache/
-.pytest_cache/
 .playwright/
 .playwright-cli/
 output/playwright/

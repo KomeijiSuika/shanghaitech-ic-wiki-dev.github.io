@@ -19,12 +19,10 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          python-version: '3.13'
-          cache: pip
-          cache-dependency-path: requirements.txt
-      - run: python -m pip install -r requirements.txt
-      - run: mkdocs build --strict
-        env:
-          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # VitePress 构建遇到死链、Markdown/Vue 模板错误时失败
+      - run: npm run build

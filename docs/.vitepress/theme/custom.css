@@ -1,0 +1,139 @@
+/* 配色取自 VSPLab（vsplab.cn）：深青主色 + 玫红点缀，浅色背景带轻微网格。 */
+
+:root {
+  --vp-font-family-base: 'Inter', 'HarmonyOS Sans SC', 'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei',
+    system-ui, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+
+  --vp-c-brand-1: #007f95;
+  --vp-c-brand-2: #006f8d;
+  --vp-c-brand-3: #07546d;
+  --vp-c-brand-soft: rgba(0, 127, 149, 0.12);
+
+  --stic-accent: #ba3f5c;
+  --stic-accent-2: #df675f;
+  --stic-accent-soft: rgba(186, 63, 92, 0.1);
+  --stic-hero-gradient: linear-gradient(120deg, #0b2832 0%, #0a4657 58%, #08687a 100%);
+  --stic-primary-gradient: linear-gradient(135deg, #07546d, #008da1);
+  --stic-accent-gradient: linear-gradient(135deg, #b33255, #ec725e);
+
+  --stic-bg-tint: #eef5f7;
+  --stic-card-bg: linear-gradient(180deg, #ffffff 0%, #f4f9fb 100%);
+  --stic-card-border: rgba(23, 68, 82, 0.14);
+  --stic-card-border-hover: rgba(0, 127, 149, 0.42);
+  --stic-card-shadow: 0 1px 2px rgba(16, 40, 48, 0.05), 0 12px 28px -14px rgba(16, 40, 48, 0.12);
+  --stic-card-shadow-hover: 0 2px 6px rgba(16, 40, 48, 0.06), 0 20px 42px -14px rgba(0, 111, 141, 0.24);
+  --stic-grid-line: rgba(31, 133, 151, 0.06);
+
+  --stic-cluster-device: #8a5b0a;
+  --stic-cluster-device-soft: rgba(183, 121, 31, 0.12);
+  --stic-cluster-circuit: #007f95;
+  --stic-cluster-circuit-soft: rgba(0, 127, 149, 0.11);
+  --stic-cluster-system: #ba3f5c;
+  --stic-cluster-system-soft: rgba(186, 63, 92, 0.1);
+  --stic-cluster-eda: #4b5bb5;
+  --stic-cluster-eda-soft: rgba(75, 91, 181, 0.11);
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: var(--stic-primary-gradient);
+}
+
+.dark {
+  --vp-c-brand-1: #3cc3d6;
+  --vp-c-brand-2: #26adc2;
+  --vp-c-brand-3: #0f8ea3;
+  --vp-c-brand-soft: rgba(60, 195, 214, 0.14);
+
+  --stic-accent: #f07a91;
+  --stic-accent-soft: rgba(240, 122, 145, 0.14);
+  --stic-bg-tint: #0d1b20;
+  --stic-card-bg: linear-gradient(180deg, #14232a 0%, #111d22 100%);
+  --stic-card-border: rgba(120, 190, 205, 0.16);
+  --stic-card-border-hover: rgba(60, 195, 214, 0.5);
+  --stic-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --stic-card-shadow-hover: 0 18px 40px -16px rgba(0, 0, 0, 0.6);
+  --stic-grid-line: rgba(120, 190, 205, 0.05);
+
+  --stic-cluster-device: #e3b25a;
+  --stic-cluster-device-soft: rgba(227, 178, 90, 0.14);
+  --stic-cluster-circuit: #3cc3d6;
+  --stic-cluster-circuit-soft: rgba(60, 195, 214, 0.14);
+  --stic-cluster-system: #f07a91;
+  --stic-cluster-system-soft: rgba(240, 122, 145, 0.14);
+  --stic-cluster-eda: #9aa8ff;
+  --stic-cluster-eda-soft: rgba(154, 168, 255, 0.14);
+}
+
+/* 导航栏玻璃质感 */
+.VPNavBar.has-sidebar .content-body,
+.VPNavBar:not(.home) .content-body,
+.VPNavBar.top .content-body {
+  backdrop-filter: saturate(160%) blur(10px);
+}
+
+.VPNavBar .title {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* 正文 */
+.vp-doc h1 {
+  letter-spacing: -0.01em;
+}
+.vp-doc h2 {
+  border-top: none;
+  padding-top: 18px;
+  position: relative;
+}
+.vp-doc h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 36px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--stic-accent-gradient);
+}
+.vp-doc a {
+  text-underline-offset: 3px;
+}
+.vp-doc table {
+  font-size: 14px;
+}
+.vp-doc th {
+  background: var(--vp-c-brand-soft);
+}
+
+/* 自定义容器 */
+.custom-block.info {
+  border-left: 3px solid var(--vp-c-brand-1);
+}
+.custom-block.tip {
+  border-left: 3px solid var(--vp-c-brand-1);
+}
+
+/* mermaid 按原始尺寸渲染（useMaxWidth: false），居中；过宽时横向滚动而不是缩小字体 */
+.mermaid {
+  display: flex;
+  overflow-x: auto;
+  margin: 16px 0;
+}
+.mermaid > svg {
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+/* 侧边栏分组标题 */
+.VPSidebarItem.level-0 > .item .text {
+  font-weight: 700;
+}
+
+/* 文档页背景带轻网格 */
+.VPDoc {
+  background-image:
+    linear-gradient(var(--stic-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--stic-grid-line) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: -1px -1px;
+}
