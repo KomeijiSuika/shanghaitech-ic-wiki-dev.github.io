@@ -1,0 +1,22 @@
+name: 错误反馈
+description: 报告事实错误、失效链接、显示异常或导航问题
+title: "[错误反馈] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面地址或文件路径
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: 哪一处有问题
+      description: 摘录对应文字，或描述出现问题的操作、设备及浏览器。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期情况或修正依据
+      description: 涉及事实时请尽可能附上公开来源与适用日期。

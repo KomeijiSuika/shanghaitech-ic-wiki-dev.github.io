@@ -1,0 +1,25 @@
+name: 内容投稿
+description: 提交已有文稿，或提出希望与他人合写的具体选题
+title: "[内容投稿] "
+body:
+  - type: input
+    id: section
+    attributes:
+      label: 所属板块与题目
+      placeholder: 例如，学习地图 / 模拟集成电路的先修知识
+    validations:
+      required: true
+  - type: textarea
+    id: draft
+    attributes:
+      label: 文稿或提纲
+      description: 说明面向谁、回答什么问题，粘贴原创提纲或可公开访问的稿件链接。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 来源与署名
+      description: 填写公开署名、参考来源和第三方材料的授权情况。个人经验请注明适用时间和背景。
+    validations:
+      required: true

@@ -1,0 +1,18 @@
+name: 功能建议
+description: 提出与检索、阅读、投稿或维护相关的网站改进
+title: "[功能建议] "
+body:
+  - type: textarea
+    id: situation
+    attributes:
+      label: 使用场景与遇到的困难
+      description: 描述你当时想完成的任务，以及现有网站在哪一步遇到了困难。
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 期望的改进
+      description: 改进后，你希望能怎样完成这项任务？
+    validations:
+      required: true

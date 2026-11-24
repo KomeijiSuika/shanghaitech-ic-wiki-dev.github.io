@@ -1,0 +1,22 @@
+name: 学习资源推荐
+description: 推荐适合加入学习路线或工具目录的公开资源
+title: "[资源推荐] "
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: 资源名称与原始入口
+      description: 附作者、机构或出版社提供的页面链接。
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: 推荐理由与适合的读者
+      description: 举例说明资源能解决什么问题，注明语言、版本、费用或访问限制。
+    validations:
+      required: true
+  - type: input
+    id: destination
+    attributes:
+      label: 建议收录的板块或页面
