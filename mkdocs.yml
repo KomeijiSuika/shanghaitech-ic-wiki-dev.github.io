@@ -121,9 +121,11 @@ nav:
   - 升学与职业:
       - career/index.md
       - 升学:
+          - career/education/index.md
           - career/graduate-study/index.md
           - career/study-abroad/index.md
       - 职业:
+          - career/work/index.md
           - career/internship/index.md
           - career/employment/index.md
   - 工具与资源:

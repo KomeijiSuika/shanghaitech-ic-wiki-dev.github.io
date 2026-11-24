@@ -4,10 +4,17 @@
 
 ## 按目标查找
 
+### [升学](education/index.md)
+
 | 入口 | 计划收录 | 建设进度 |
 | --- | --- | --- |
 | [国内升学](graduate-study/index.md) | 推免、考研与科研项目申请的资料和复盘 | 待共建 |
-| [海外升学](study-abroad/index.md) | 项目比较、研究兴趣陈述与申请安排 | 待共建 |
+| [国外升学](study-abroad/index.md) | 项目比较、研究兴趣陈述与申请安排 | 待共建 |
+
+### [职业](work/index.md)
+
+| 入口 | 计划收录 | 建设进度 |
+| --- | --- | --- |
 | [实习](internship/index.md) | 岗位理解、作品整理与实习复盘 | 待共建 |
 | [就业](employment/index.md) | 岗位方向、招聘信息核对与求职准备 | 待共建 |
 

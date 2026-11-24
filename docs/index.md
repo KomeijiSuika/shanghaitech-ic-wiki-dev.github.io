@@ -49,7 +49,7 @@ hide:
 
 -   :material-briefcase-outline: **[升学与职业](career/index.md)**
 
-    按国内升学、海外申请、实习与就业查找经验和准备材料。
+    按国内升学、国外升学、实习与就业查找经验和准备材料。
 
 -   :material-tools: **[工具与资源](tools/index.md)**
 
