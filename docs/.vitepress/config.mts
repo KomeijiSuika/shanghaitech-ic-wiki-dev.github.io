@@ -231,8 +231,8 @@ export default withMermaid(
           activeMatch: '^/(research-guide|career|competitions)/',
           items: [
             { text: '科研探索', link: '/research-guide/' },
-            { text: '升学与就业', link: '/career/' },
-            { text: '竞赛与项目', link: '/competitions/' }
+            { text: '竞赛与项目', link: '/competitions/' },
+            { text: '升学与就业', link: '/career/' }
           ]
         },
         {

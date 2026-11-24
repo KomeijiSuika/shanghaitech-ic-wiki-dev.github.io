@@ -17,7 +17,8 @@
 | [科研方向](docs/research/index.md) | 11 个细分方向的问题、方法、本校研究力量与先修知识 |
 | [自学资源](docs/self-learning/index.md) · [EDA 工具](docs/eda/index.md) | 公开课程、教材、商用与开源工具链 |
 | [科研探索](docs/research-guide/index.md) | 进组、读论文、会议期刊、工具与写作 |
-| [升学与就业](docs/career/index.md) · [竞赛](docs/competitions/index.md) | 推免、申请、考研、实习、岗位、企业与竞赛 |
+| [竞赛与项目](docs/competitions/index.md) | 赛事对照、备赛闭环与一生一芯 |
+| [升学与就业](docs/career/index.md) | 推免、申请、考研、实习、岗位与企业 |
 | [社区与共建](docs/about/index.md) | 投稿入口、写作示例、贡献者署名与维护说明 |
 
 标有“征集”的小节列出了欢迎补充的经验。你可以从补一条有出处的资源、修正一个失效链接开始。
