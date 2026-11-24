@@ -1,25 +1,4 @@
-# Python 环境、MkDocs 构建与开发工具缓存
-.venv/
-venv/
-site/
-__pycache__/
-*.py[cod]
-.cache/
-.pytest_cache/
-.playwright/
-.playwright-cli/
-output/playwright/
-
-# 本地编辑器、临时文件和个人配置
-.vscode/
-.idea/
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
 .DS_Store
-*.swp
-*~
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-id_rsa
-id_ed25519
