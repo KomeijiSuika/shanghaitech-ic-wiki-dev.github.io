@@ -85,7 +85,7 @@ const friends = [
       <div class="hero-bg" aria-hidden="true" />
       <div class="hero-inner">
         <div class="hero-text">
-          <p class="eyebrow">ShanghaiTech IC Wiki · SIST</p>
+          <p class="eyebrow">ShanghaiTech IC Wiki</p>
           <h1>
             上科大<span class="grad">芯知库</span>
           </h1>
