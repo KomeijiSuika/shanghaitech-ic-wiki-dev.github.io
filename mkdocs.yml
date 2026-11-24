@@ -93,7 +93,10 @@ nav:
               - learning/circuits/index.md
               - learning/analog-ic/index.md
               - learning/digital-ic/index.md
-          - learning/computer-architecture/index.md
+          - 系统架构:
+              - learning/computer-architecture/index.md
+              - learning/computer-architecture/general-purpose-systems.md
+              - learning/computer-architecture/heterogeneous-systems.md
           - learning/algorithms-and-programming/index.md
           - learning/eda/index.md
   - 上科大 IC:

@@ -10,7 +10,7 @@
 | --- | --- |
 | [工艺与器件](devices-and-process/index.md) | 制造步骤和器件结构如何影响电学特性？ |
 | [电路](circuits/index.md) | [模拟和射频电路](analog-ic/index.md)关注增益、噪声和阻抗匹配。[数字电路](digital-ic/index.md)关注逻辑、时序和验证。 |
-| [系统架构](computer-architecture/index.md) | 处理器、存储和互连如何配合运行一个程序？ |
+| [系统架构](computer-architecture/index.md) | [通用计算系统](computer-architecture/general-purpose-systems.md)关注处理器与存储层次。[领域专用与异构系统（AI系统）](computer-architecture/heterogeneous-systems.md)关注专用加速和多种计算单元的协作。 |
 | [算法编程](algorithms-and-programming/index.md) | 如何选择数据结构、实现算法，并验证程序的正确性和效率？ |
 | [EDA](eda/index.md) | 如何把芯片设计中的综合、布局或布线任务转化为算法问题？ |
 
