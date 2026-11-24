@@ -11,8 +11,8 @@
 | [认识 IC](docs/explore-ic/index.md)      | 集成电路知识地图、产业链与研究方向             |
 | [学习地图](docs/learning/index.md)       | 不同方向的基础知识、学习顺序与公开资源         |
 | [上科大 IC](docs/shanghaitech/index.md)  | 校内课程、教师、课题组与 IC 荣誉项目的公开信息 |
-| [竞赛与项目](docs/competitions/index.md) | 赛事入口、工程项目与参赛复盘                   |
 | [科研探索](docs/research/index.md)       | 从明确问题、查找论文到做阅读笔记的方法         |
+| [竞赛与项目](docs/competitions/index.md) | 赛事入口、工程项目与参赛复盘                   |
 | [升学与职业](docs/career/index.md)       | 升学路径、实习与就业经验                       |
 | [工具与资源](docs/tools/index.md)        | EDA 工具、开发环境与开源项目                   |
 | [社区与共建](docs/community/index.md)    | 投稿入口、写作示例与维护说明                   |

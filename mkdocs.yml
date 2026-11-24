@@ -99,15 +99,15 @@ nav:
       - 本科生科研:
           - shanghaitech/faculty/index.md
           - shanghaitech/research-groups/index.md
+  - 科研探索:
+      - research/index.md
+      - research/getting-started.md
+      - research/paper-reading.md
   - 竞赛与项目:
       - competitions/index.md
       - competitions/competitions/index.md
       - competitions/experiences/index.md
       - competitions/projects/index.md
-  - 科研探索:
-      - research/index.md
-      - research/getting-started.md
-      - research/paper-reading.md
   - 升学与职业:
       - career/index.md
       - 升学:

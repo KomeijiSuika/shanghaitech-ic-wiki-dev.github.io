@@ -39,13 +39,13 @@ hide:
 
     查阅校内课程、教师、课题组与 IC 荣誉项目的公开资料入口。
 
--   :material-memory: **[竞赛与项目](competitions/index.md)**
-
-    查找赛事指南、工程项目与参赛者的实践复盘。
-
 -   :material-microscope: **[科研探索](research/index.md)**
 
     从一个具体问题开始，学习查找论文、阅读文献与记录研究过程。
+
+-   :material-memory: **[竞赛与项目](competitions/index.md)**
+
+    查找赛事指南、工程项目与参赛者的实践复盘。
 
 -   :material-briefcase-outline: **[升学与职业](career/index.md)**
 
