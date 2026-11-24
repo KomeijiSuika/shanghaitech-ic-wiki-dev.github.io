@@ -87,11 +87,15 @@ nav:
       - learning/index.md
       - learning/fundamentals/index.md
       - 专业方向:
-          - learning/digital-ic/index.md
-          - learning/analog-ic/index.md
+          - learning/directions/index.md
           - learning/devices-and-process/index.md
-          - learning/eda/index.md
+          - 电路:
+              - learning/circuits/index.md
+              - learning/digital-ic/index.md
+              - learning/analog-ic/index.md
           - learning/computer-architecture/index.md
+          - learning/algorithms-and-programming/index.md
+          - learning/eda/index.md
   - 上科大 IC:
       - shanghaitech/index.md
       - shanghaitech/courses/index.md

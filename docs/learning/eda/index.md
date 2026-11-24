@@ -1,4 +1,4 @@
-# 电子设计自动化
+# EDA
 
 **待共建** · 本路线关注 Electronic Design Automation（电子设计自动化，EDA）如何把工程约束表达为算法问题。
 
