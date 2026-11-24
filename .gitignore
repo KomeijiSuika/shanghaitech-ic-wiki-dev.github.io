@@ -1,4 +1,24 @@
+# Node 依赖与 VitePress 构建缓存
 node_modules/
 docs/.vitepress/cache/
 docs/.vitepress/dist/
+
+# 开发工具缓存
+.cache/
+.playwright/
+.playwright-cli/
+output/playwright/
+
+# 本地编辑器、临时文件和个人配置
+.vscode/
+.idea/
 .DS_Store
+*.swp
+*~
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519

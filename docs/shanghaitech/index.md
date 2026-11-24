@@ -102,6 +102,7 @@ flowchart LR
 ## 参考与来源
 
 - [信息学院官网](https://sist.shanghaitech.edu.cn/)：首页统计注明「截至 2026 年 09 月」，2026-11 核对。
+- [上海科技大学本科生培养方案](https://oaa.shanghaitech.edu.cn/pyfa_4226/list.htm)：教务处入口，按入学年级和专业选择培养方案，同一栏目提供“课表信息”和“课程信息”入口，2026-11-24 核验。
 - [走进信息学院七大研究中心，2026-05-06](https://sist.shanghaitech.edu.cn/2026/0506/c10969a1121576/page.htm)。
 - [信息学院本科生招生介绍](https://sist.shanghaitech.edu.cn/2711/list.htm)：专业设置、培养特色与本硕博一体化体系。
 - [2026 级电子信息工程培养方案](https://faculty.sist.shanghaitech.edu.cn/office/Academics/Undergraduate/Degree%20Programmes/2026%20Bachelor%20Degree%20Prorgams%20in%20EE.htm)：学分及三选二规则；本文依据其本地摘录 `ee2026_rows.txt` 整理。

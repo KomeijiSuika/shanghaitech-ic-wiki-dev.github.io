@@ -85,12 +85,12 @@ const friends = [
       <div class="hero-bg" aria-hidden="true" />
       <div class="hero-inner">
         <div class="hero-text">
-          <p class="eyebrow">ShanghaiTech University · SIST</p>
+          <p class="eyebrow">ShanghaiTech IC Wiki · SIST</p>
           <h1>
-            上科大 <span class="grad">IC Wiki</span>
+            上科大<span class="grad">芯知库</span>
           </h1>
           <p class="lead">
-            从电路基础到流片签核——由上科大同学维护的集成电路学习、科研与升学指南。
+            从电路基础到流片签核——上海科技大学学生发起的集成电路学习、科研与升学指南。
             <br />
             把散落在课程群、组会和学长学姐口中的经验，连成一张看得见的地图。
           </p>
@@ -230,7 +230,7 @@ const friends = [
           <p>修过的课、进过的组、踩过的坑、拿到的 offer——每一份经验都能让下一届少走弯路。</p>
         </div>
         <div class="cta-actions">
-          <a class="btn btn--accent" :href="withBase('/about/contribute')">参与建设</a>
+          <a class="btn btn--accent" :href="withBase('/about/contribute')">参与共建</a>
           <a class="btn btn--ghost" href="https://github.com/ShanghaiTech-IC-Wiki-Dev/shanghaitech-ic-wiki-dev.github.io" target="_blank" rel="noopener">GitHub ↗</a>
         </div>
       </div>

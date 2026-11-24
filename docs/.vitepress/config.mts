@@ -6,10 +6,13 @@ const repo = 'https://github.com/ShanghaiTech-IC-Wiki-Dev/shanghaitech-ic-wiki-d
 const sidebar: DefaultTheme.Sidebar = {
   '/about/': [
     {
-      text: '关于',
+      text: '社区与共建',
       items: [
         { text: '关于本站', link: '/about/' },
-        { text: '参与建设', link: '/about/contribute' }
+        { text: '参与共建', link: '/about/contribute' },
+        { text: '文章写作示例', link: '/about/writing' },
+        { text: '贡献者与署名', link: '/about/contributors' },
+        { text: '站点维护', link: '/about/maintenance' }
       ]
     }
   ],
@@ -183,24 +186,24 @@ const sidebar: DefaultTheme.Sidebar = {
 export default withMermaid(
   defineConfig({
     lang: 'zh-CN',
-    title: '上科大 IC Wiki',
-    titleTemplate: ':title · 上科大 IC Wiki',
+    title: '上科大芯知库',
+    titleTemplate: ':title · 上科大芯知库',
     description: '上海科技大学集成电路学生 Wiki：课程、课题组、科研方向、自学资源与升学就业经验',
     cleanUrls: true,
     lastUpdated: true,
     head: [
       ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
       ['meta', { name: 'theme-color', content: '#07546d' }],
-      ['meta', { property: 'og:title', content: '上科大 IC Wiki' }],
+      ['meta', { property: 'og:title', content: '上科大芯知库 · ShanghaiTech IC Wiki' }],
       ['meta', { property: 'og:description', content: '由上科大学生维护的集成电路学习、科研与升学指南' }]
     ],
     markdown: {
-      math: false,
+      math: true,
       lineNumbers: false
     },
     themeConfig: {
       logo: '/favicon.svg',
-      siteTitle: '上科大 IC Wiki',
+      siteTitle: '上科大芯知库',
       nav: [
         { text: '学习地图', link: '/map/', activeMatch: '^/map/' },
         { text: '上科大课程', link: '/courses/', activeMatch: '^/courses/' },
@@ -233,11 +236,12 @@ export default withMermaid(
           ]
         },
         {
-          text: '关于',
+          text: '社区',
           activeMatch: '^/(about|links)/',
           items: [
             { text: '关于本站', link: '/about/' },
-            { text: '参与建设', link: '/about/contribute' },
+            { text: '参与共建', link: '/about/contribute' },
+            { text: '站点维护', link: '/about/maintenance' },
             { text: '友链', link: '/links/' }
           ]
         }
@@ -270,8 +274,8 @@ export default withMermaid(
         }
       },
       footer: {
-        message: '由上科大学生自发维护的非官方 Wiki · 内容以 CC BY-NC-SA 4.0 共享 · 院系信息以学校官网为准',
-        copyright: 'ShanghaiTech IC Wiki Contributors'
+        message: '上海科技大学学生发起的非官方 Wiki · 代码 MIT，原创内容 CC BY 4.0 · 院系信息以学校官网为准',
+        copyright: 'ShanghaiTech IC Wiki contributors'
       }
     },
     mermaid: {

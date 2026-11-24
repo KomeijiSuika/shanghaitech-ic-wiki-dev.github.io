@@ -26,17 +26,17 @@
 
 ## 修改或新增页面
 
-在 `docs/` 中找到所属板块的 Markdown 文件。修改已有页面时尽量保留原路径，让读者保存的链接继续有效。新增页面可从[内容模板](templates/)复制，写完后删除模板中的提示文字。
+在 `docs/` 中找到所属板块的 Markdown 文件。修改已有页面时尽量保留原路径，让读者保存的链接继续有效。新增页面可从[内容模板](templates/)复制，写完后删除模板中的提示文字。教授、课程和研究方向的事实集中在 `docs/.vitepress/data/` 的 `faculty.ts`、`courses.ts`、`directions.ts` 中修改，页面通过组件引用，不要在正文里复制同一份表格。
 
-1. 文件与文件夹用小写英文命名，多个单词用连字符分隔，例如 `docs/research/reading-notes.md`。使用一个一级标题，用二级标题组织正文。
-2. 首次出现的重要专业术语写为英文（中文）。为链接使用能说明目的地的文字，站内链接使用相对 Markdown 路径，例如从 `docs/research/index.md` 链到 `[论文阅读](paper-reading.md)`。
-3. 在所属板块首页添加入口。打开 [mkdocs.yml](mkdocs.yml)，在 `nav` 中对应板块下按相邻条目的缩进添加新页。路径相对 `docs/`。
+1. 文件与文件夹用小写英文命名，多个单词用连字符分隔，例如 `docs/research-guide/reading-notes.md`。frontmatter 写 `title` 与 `description`，正文使用一个一级标题，用二级标题组织正文。
+2. 首次出现的重要专业术语写为英文（中文）。为链接使用能说明目的地的文字，站内链接使用以 `/` 开头、不带 `.md` 的绝对路径，例如 `[论文阅读](/research-guide/paper-reading)`。
+3. 在所属板块首页添加入口。打开 [docs/.vitepress/config.mts](docs/.vitepress/config.mts)，在 `sidebar` 中对应板块的 `items` 里按相邻条目的写法添加新页。
 
-   ```yaml
-   - 阅读笔记: research/reading-notes.md
+   ```ts
+   { text: '阅读笔记', link: '/research-guide/reading-notes' }
    ```
 
-4. 发布代码、公式或流程图前，可对照[写作示例](docs/community/writing.md)检查排版。仍缺资料的小节请标出“待共建”，写明待补的具体问题。
+4. 发布代码、公式或流程图前，可对照[写作示例](docs/about/writing.md)检查排版。正文中的双花括号会被 Vue 当作模板解析，展示这类语法时请放进代码块。欢迎补充经验的小节使用 `::: info 征集` 容器，写明待补的具体问题。
 
 ## 引用、授权和审核标准
 
@@ -48,21 +48,19 @@
 
 ## 预览并提交 PR
 
-从仓库根目录运行以下命令。Windows PowerShell 的激活方式见 [README](README.md#本地预览)。
+从仓库根目录运行以下命令（需要 Node.js 22 与 npm）。
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-mkdocs build --strict
-mkdocs serve
+npm ci
+npm run build
+npm run dev
 ```
 
-打开 [本地预览](http://127.0.0.1:8000/)，沿导航找到文章，检查链接和版式。按 `Ctrl+C` 关闭预览。下例提交上面的新增页面及其入口，提交前按实际变更调整文件名。
+`npm run build` 与 PR 检查使用同一命令，遇到死链、Markdown 或 Vue 模板错误会失败。`npm run dev` 启动本地预览，打开终端显示的地址，沿侧边栏找到文章，检查链接和版式。按 `Ctrl+C` 关闭预览。下例提交上面的新增页面及其入口，提交前按实际变更调整文件名。
 
 ```bash
 git diff
-git add docs/research/reading-notes.md docs/research/index.md mkdocs.yml
+git add docs/research-guide/reading-notes.md docs/research-guide/index.md docs/.vitepress/config.mts
 git diff --cached
 git commit -m "docs: 增加论文阅读笔记"
 git push -u origin docs/add-reading-notes
@@ -70,4 +68,4 @@ git push -u origin docs/add-reading-notes
 
 在 GitHub 上选择 **Compare & pull request**，确认目标是项目仓库的 `main`，来源是你的开发分支。填写 PR 模板，说明资料来源和检查结果。若使用网页编辑、尚未本地构建，可在模板中如实说明，并查看 **Checks** 中的 CI 结果。
 
-维护者核对内容、署名、链接和构建结果后合并。收到修改意见时，在同一分支补充提交即可更新 PR。合并会触发网站部署，随后可在正式网站复查页面。[维护说明](docs/community/maintenance.md)
+维护者核对内容、署名、链接和构建结果后合并。收到修改意见时，在同一分支补充提交即可更新 PR。合并会触发网站部署，随后可在正式网站复查页面。[维护说明](docs/about/maintenance.md)

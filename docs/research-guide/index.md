@@ -47,7 +47,7 @@ description: 从选择问题、联系导师到建立可持续的科研节奏，�
 继续阅读：[论文阅读](/research-guide/paper-reading)、[科研工具](/research-guide/tools)、[学术写作](/research-guide/writing)。
 
 ::: info 征集
-欢迎学长学姐通过[参与建设](/about/contribute)投稿本科科研入门经验，注明方向与年份，只写可公开的任务和方法，不披露未发表成果或个人评价。
+欢迎学长学姐通过[参与共建](/about/contribute)投稿本科科研入门经验，注明方向与年份，只写可公开的任务和方法，不披露未发表成果或个人评价。
 :::
 
 ## 参考与来源
